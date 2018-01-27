@@ -61,10 +61,10 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1409718527551506, guid: 138ac86688f4e1646859de1bc941f14c,
+  m_PlayerPrefab: {fileID: 1781910969697054, guid: 959a5aae063b40c4ea02229f62bb1d08,
     type: 2}
   m_AutoCreatePlayer: 1
-  m_PlayerSpawnMethod: 0
+  m_PlayerSpawnMethod: 1
   m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs:
@@ -126,6 +126,12 @@ MonoBehaviour:
   matchMaker: {fileID: 0}
   monsterPrefab: {fileID: 1413618672198256, guid: 005ff946586c276449e7d839279952d1,
     type: 2}
+  playerAvatars:
+  - {fileID: 21300000, guid: f1517b9375bd62e489a819b7434b1a73, type: 3}
+  - {fileID: 21300000, guid: 9a8f2f427723b1140868720075457091, type: 3}
+  - {fileID: 21300000, guid: 68130dc500072554181d57a5673432cd, type: 3}
+  - {fileID: 21300000, guid: 7c1af2c81c2c32a47b3672fbea6d9d78, type: 3}
+  infect_time: 20
 --- !u!114 &114884494349236738
 MonoBehaviour:
   m_ObjectHideFlags: 1
