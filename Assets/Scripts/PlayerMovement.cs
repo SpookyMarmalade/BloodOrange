@@ -8,11 +8,13 @@ public class PlayerMovement : NetworkBehaviour {
 
     public float moveSpeed;
     public Vector2 velocity;
+    private AudioSource myFootstepsSound;
     private Rigidbody2D rb;
 
     // Use this for initialization
     void Start () {
         rb = transform.GetComponent<Rigidbody2D>();
+        myFootstepsSound = Camera.main.GetComponents<AudioSource>()[1];
 	}
 
     public override void OnStartLocalPlayer(){
@@ -44,5 +46,11 @@ public class PlayerMovement : NetworkBehaviour {
         //normalised to get around diagonal being faster
         velocity = new Vector2(x, y).normalized * moveSpeed;
         rb.velocity = velocity;
+
+        bool moving = (x != 0 || y != 0);
+        myFootstepsSound.loop = moving;
+        if (moving && !myFootstepsSound.isPlaying) {
+            myFootstepsSound.Play();
+        }
 	} 
 }
