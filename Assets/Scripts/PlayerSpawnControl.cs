@@ -24,10 +24,10 @@ public class PlayerSpawnControl : NetworkManager{
     void Update()
     {
         if (!started && infect_time - Time.time <= 0) {
-            
+			started = true;
             InfectPlayer(players[(int)UnityEngine.Random.Range(0, players.Count)].GetComponent<PlayerActions>());
         }
-        if (players.Count <= 0)
+        if (started && players.Count <= 0)
         {
             Debug.Log("Game Over!");
         }
