@@ -23,8 +23,13 @@ public class PlayerMovement : NetworkBehaviour {
 	void Update () {
 		if(!isLocalPlayer) return;
 
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        // Only allow interpolated movement on an axis if the
+        // player is currently trying to move along it. This
+        // removes the slow deceleration when the player stops.
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
+        if (x != 0) { x = Input.GetAxis("Horizontal");  }
+        if (y != 0) { y = Input.GetAxis("Vertical"); }
 
        	if (InputManager.Devices.Count > 0) {
             //override with dpad if being used
