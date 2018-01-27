@@ -4,7 +4,13 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 public class PlayerActions : NetworkBehaviour {
-    public int playernumber;
+    
+	[SyncVar(hook = "UpdateSprite")]
+	public int playernumber;
+
+	[SerializeField]
+	Sprite[] playerAvatars;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,5 +19,12 @@ public class PlayerActions : NetworkBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	void UpdateSprite(int spriteID){
+		if (playerAvatars.Length > 0) {
+			int avatarID = spriteID % playerAvatars.Length;
+			GetComponent<SpriteRenderer> ().sprite = playerAvatars [avatarID];
+		}
 	}
 }

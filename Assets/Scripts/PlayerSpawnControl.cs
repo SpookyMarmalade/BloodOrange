@@ -12,8 +12,6 @@ public class PlayerSpawnControl : NetworkManager{
     List<GameObject> players;
     List<GameObject> monsters;
     [SerializeField]
-    Sprite[] playerAvatars;
-    [SerializeField]
     float infect_time=20;
     int playerNumber = 0;
     bool started = false;
@@ -42,9 +40,8 @@ public class PlayerSpawnControl : NetworkManager{
 		
 		player = (GameObject)Instantiate<GameObject>(playerPrefab, spawnPoint, Quaternion.identity);
         players.Add(player);
-        player.GetComponent<PlayerActions>().playernumber = playerNumber++;
-        if (playerAvatars.Length > 0)
-            player.GetComponent<SpriteRenderer>().sprite = playerAvatars[player.GetComponent<PlayerActions>().playernumber % playerAvatars.Length];
+        player.GetComponent<PlayerActions>().playernumber = ++playerNumber;
+			
 		NetworkServer.AddPlayerForConnection (conn, player, playerControllerIdentity);
 	}
 		
