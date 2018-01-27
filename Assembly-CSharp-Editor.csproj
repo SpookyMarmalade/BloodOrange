@@ -51,6 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InControl\Editor\InControlBuilder.cs" />
+     <Compile Include="Assets\InControl\Editor\InControlManagerEditor.cs" />
+     <Compile Include="Assets\InControl\Editor\InputManagerAssetGenerator.cs" />
+     <Compile Include="Assets\InControl\Editor\ProfileListGenerator.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\GenericListAdaptor.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\GUIHelper.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\ReorderableListResources.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\IReorderableListAdaptor.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListControl.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListFlags.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListGUI.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\SerializedPropertyAdaptor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />

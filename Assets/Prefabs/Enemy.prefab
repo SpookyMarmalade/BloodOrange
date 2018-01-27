@@ -113,6 +113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  velocity: {x: 0, y: 0}
+  gc: {fileID: 0}
 --- !u!114 &114986756863653726
 MonoBehaviour:
   m_ObjectHideFlags: 1
