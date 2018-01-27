@@ -5,19 +5,18 @@ using UnityEngine.Networking;
 
 public class TorchAngler : MonoBehaviour {
     
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
 	void Update () {
 
-        PlayerMovement playerMovement = ClientScene.localPlayers[0].gameObject.GetComponent<PlayerMovement>();
-
-
-        Debug.Log(Vector2.Angle(Vector2.down, playerMovement.velocity).ToString());
-        transform.rotation = Quaternion.Euler(0, 0, 0 - Vector2.Angle(Vector2.up, playerMovement.velocity));
-
+        if (ClientScene.localPlayers.Count > 0) {
+            //set torch to point in the right direction based on player movement
+            PlayerMovement playerMovement = ClientScene.localPlayers[0].gameObject.GetComponent<PlayerMovement>();
+            if (Mathf.Abs(playerMovement.velocity.magnitude) > 0) {
+                if (playerMovement.velocity.x > 0) {
+                    transform.rotation = Quaternion.Euler(0, 0, 180 - Vector2.Angle(Vector2.up, playerMovement.velocity));
+                } else {
+                    transform.rotation = Quaternion.Euler(0, 0, 180 + Vector2.Angle(Vector2.up, playerMovement.velocity));
+                }
+            }
+        }
     }
 }

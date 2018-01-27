@@ -10,7 +10,6 @@ public class PlayerMovement : NetworkBehaviour {
     private const float sqrtHalf = 0.7071067811865476f;
     public Vector2 velocity;
     private Rigidbody2D rb;
-    public GameController gc;
 
     // Use this for initialization
     void Start () {
@@ -19,7 +18,6 @@ public class PlayerMovement : NetworkBehaviour {
 
     public override void OnStartLocalPlayer(){
         GetComponent<SpriteRenderer>().material.color = Color.green;
-        gc.LocalPlayer = gameObject;
     }
 
 	// Update is called once per frame
@@ -42,7 +40,5 @@ public class PlayerMovement : NetworkBehaviour {
         //normalised to get around diagonal being faster
         velocity = new Vector2(x, y).normalized * moveSpeed;
         rb.velocity = velocity;
-
-        //transform.Translate(x,y,z);
 	} 
 }
