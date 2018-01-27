@@ -1,0 +1,1146 @@
+fileFormatVersion: 2
+guid: dc824bfc6ab5e784b992a17b63e039b0
+timeCreated: 1517055243
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: template7x7_0
+    21300002: template7x7_1
+    21300004: template7x7_2
+    21300006: template7x7_3
+    21300008: template7x7_4
+    21300010: template7x7_5
+    21300012: template7x7_6
+    21300014: template7x7_7
+    21300016: template7x7_8
+    21300018: template7x7_9
+    21300020: template7x7_10
+    21300022: template7x7_11
+    21300024: template7x7_12
+    21300026: template7x7_13
+    21300028: template7x7_14
+    21300030: template7x7_15
+    21300032: template7x7_16
+    21300034: template7x7_17
+    21300036: template7x7_18
+    21300038: template7x7_19
+    21300040: template7x7_20
+    21300042: template7x7_21
+    21300044: template7x7_22
+    21300046: template7x7_23
+    21300048: template7x7_24
+    21300050: template7x7_25
+    21300052: template7x7_26
+    21300054: template7x7_27
+    21300056: template7x7_28
+    21300058: template7x7_29
+    21300060: template7x7_30
+    21300062: template7x7_31
+    21300064: template7x7_32
+    21300066: template7x7_33
+    21300068: template7x7_34
+    21300070: template7x7_35
+    21300072: template7x7_36
+    21300074: template7x7_37
+    21300076: template7x7_38
+    21300078: template7x7_39
+    21300080: template7x7_40
+    21300082: template7x7_41
+    21300084: template7x7_42
+    21300086: template7x7_43
+    21300088: template7x7_44
+    21300090: template7x7_45
+    21300092: template7x7_46
+    21300094: template7x7_47
+    21300096: template7x7_48
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 511
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: template7x7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 51.273254, y: 132.14917}
+        - {x: -45.376022, y: 131.41992}
+        - {x: -129.21432, y: 48.44751}
+        - {x: -129.21432, y: -45.1792}
+        - {x: -50.802948, y: -128.10767}
+        - {x: 63.874996, y: -129.62476}
+        - {x: 130.375, y: -49.019287}
+        - {x: 130.375, y: 47.926025}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -126.15515, y: 52.23633}
+        - {x: -126.15515, y: -48.163086}
+        - {x: -51.029175, y: -125.529785}
+        - {x: 256, y: -129.62476}
+        - {x: 256, y: 132.87524}
+        - {x: -47.999973, y: 132.87524}
+        - {x: -82.37042, y: 110.65088}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -256, y: -129.62476}
+        - {x: -128.12134, y: -127.98413}
+        - {x: -130.12495, y: -255.62474}
+        - {x: 130.62505, y: -255.62474}
+        - {x: 128.69116, y: -129.65088}
+        - {x: 256, y: -129.62476}
+        - {x: 256, y: 132.87524}
+        - {x: -256, y: 132.87524}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.99986, y: -129.62476}
+        - {x: -127.50659, y: -127.13135}
+        - {x: -129.99988, y: -255.62474}
+        - {x: 256, y: -255.62474}
+        - {x: 256, y: 132.87524}
+        - {x: -255.99986, y: 132.87524}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.8749, y: -255.62474}
+        - {x: 256, y: -255.62474}
+        - {x: 256, y: 132.87524}
+        - {x: -255.8749, y: 132.87524}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.74992, y: -255.62474}
+        - {x: 132.75006, y: -255.62474}
+        - {x: 129.95337, y: -130.4502}
+        - {x: 256, y: -129.62476}
+        - {x: 256, y: 132.87524}
+        - {x: -255.74992, y: 132.87524}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.62474, y: 132.87524}
+        - {x: -255.62474, y: -129.62476}
+        - {x: -131.58008, y: -129.02124}
+        - {x: -129.62476, y: -255.62474}
+        - {x: 132.87524, y: -255.62474}
+        - {x: 128.6499, y: 46.33667}
+        - {x: 48.621582, y: 130.7627}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 54.081482, y: 126.45239}
+        - {x: -70.18068, y: 122.25391}
+        - {x: -127.92662, y: 49.81372}
+        - {x: -132.125, y: -255.74992}
+        - {x: 130.375, y: -255.74992}
+        - {x: 132.47418, y: 46.671143}
+        - {x: 96.77176, y: 91.4646}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -127.774536, y: 42.946533}
+        - {x: -130.24997, y: -255.74992}
+        - {x: 256, y: -255.74992}
+        - {x: 256, y: 132.75006}
+        - {x: -43.348267, y: 122.84839}
+        - {x: -99.22125, y: 97.06958}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -130.12495, y: 256}
+        - {x: -130.4701, y: 125.6521}
+        - {x: -256, y: 132.75006}
+        - {x: -256, y: -255.74992}
+        - {x: 125.36035, y: -256}
+        - {x: 126.76196, y: -128.47192}
+        - {x: 256, y: -134.99994}
+        - {x: 256, y: 129.78027}
+        - {x: 128.40149, y: 127.14673}
+        - {x: 131.28552, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -129.99988, y: 256}
+        - {x: -128.50671, y: 127.86084}
+        - {x: -255.99986, y: 132.75006}
+        - {x: -255.99986, y: -129.74994}
+        - {x: -129.55347, y: -130.77515}
+        - {x: -129.99988, y: -255.74992}
+        - {x: 256, y: -255.74992}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.8749, y: 256}
+        - {x: -255.8749, y: -255.74992}
+        - {x: 256, y: -255.74992}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_12
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.74992, y: 256}
+        - {x: -255.74992, y: -255.74992}
+        - {x: 256, y: -255.74992}
+        - {x: 256, y: 132.75006}
+        - {x: 129.66895, y: 130.72559}
+        - {x: 132.75006, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_13
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.62474, y: -255.74992}
+        - {x: 132.87524, y: -255.74992}
+        - {x: 132.87524, y: 256}
+        - {x: -129.62476, y: 256}
+        - {x: -129.84766, y: 128.87866}
+        - {x: -255.62474, y: 132.75006}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -132.125, y: 256}
+        - {x: -132.125, y: -255.8749}
+        - {x: 127.54385, y: -255.875}
+        - {x: 127.183655, y: -127.1604}
+        - {x: 256, y: -128.58789}
+        - {x: 256, y: 128.6311}
+        - {x: 127.59378, y: 128.79175}
+        - {x: 129.08783, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -130.24997, y: 256}
+        - {x: -132.1623, y: 132.4751}
+        - {x: -256, y: 130.87509}
+        - {x: -256, y: -129.87491}
+        - {x: -130.367, y: -127.96265}
+        - {x: -130.24997, y: -255.8749}
+        - {x: 132.25002, y: -255.8749}
+        - {x: 125.68408, y: -128.32642}
+        - {x: 256, y: -129.87491}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -129.87491}
+        - {x: -132.01807, y: -131.64917}
+        - {x: -130.12495, y: -255.8749}
+        - {x: 256, y: -255.8749}
+        - {x: 256, y: 130.87509}
+        - {x: 127.22241, y: 133.09424}
+        - {x: 130.62505, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -129.99988, y: 256}
+        - {x: -126.00513, y: 125.35254}
+        - {x: -255.99986, y: 130.87509}
+        - {x: -255.99986, y: -255.8749}
+        - {x: 256, y: -255.8749}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_18
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.8749, y: 256}
+        - {x: -255.8749, y: -255.8749}
+        - {x: 256, y: -255.8749}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.74992, y: 256}
+        - {x: -255.74992, y: -255.8749}
+        - {x: 132.75006, y: -255.8749}
+        - {x: 131.78589, y: -132.15527}
+        - {x: 256, y: -129.87491}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_20
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -132.99927, y: -132.15527}
+        - {x: -129.62476, y: -255.8749}
+        - {x: 132.87524, y: -255.8749}
+        - {x: 132.87524, y: 256}
+        - {x: -255.62474, y: 256}
+        - {x: -255.62474, y: -129.87491}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -132.125, y: 256}
+        - {x: -132.125, y: -255.99986}
+        - {x: 256, y: -255.99986}
+        - {x: 256, y: 132.50012}
+        - {x: 128.45715, y: 127.72156}
+        - {x: 130.375, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -125.76019, y: 256}
+        - {x: -125.03876, y: 128.23303}
+        - {x: -256, y: 130.55786}
+        - {x: -256, y: -255.99986}
+        - {x: 256, y: -255.99986}
+        - {x: 256, y: 128.01025}
+        - {x: 130.28967, y: 131.22925}
+        - {x: 130.30774, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -130.12495, y: 256}
+        - {x: -129.78589, y: 127.923706}
+        - {x: -256, y: 132.50012}
+        - {x: -256, y: -255.99986}
+        - {x: 130.62505, y: -255.99986}
+        - {x: 127.22229, y: -129.7832}
+        - {x: 256, y: -129.99988}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.99986, y: 256}
+        - {x: -255.99986, y: -129.99988}
+        - {x: 256, y: -129.99988}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_25
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.8749, y: 256}
+        - {x: -255.8749, y: -129.99988}
+        - {x: -129.87491, y: -255.99986}
+        - {x: 130.87509, y: -255.99986}
+        - {x: 256, y: -129.99988}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_26
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.74992, y: 256}
+        - {x: -256, y: -122.0437}
+        - {x: -130.27173, y: -126.91626}
+        - {x: -133.24994, y: -255.99986}
+        - {x: 125.94092, y: -255.99988}
+        - {x: 127.80176, y: -131.24951}
+        - {x: 255.07959, y: -128.93848}
+        - {x: 256, y: 133.2522}
+        - {x: 130.39844, y: 131.63501}
+        - {x: 129.15942, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.62474, y: -129.99988}
+        - {x: -128.55786, y: -130.88904}
+        - {x: -129.62476, y: -255.99986}
+        - {x: 132.87524, y: -255.99986}
+        - {x: 132.87524, y: 256}
+        - {x: -129.62476, y: 256}
+        - {x: -136.63354, y: 129.41809}
+        - {x: -255.62474, y: 132.50012}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -132.125, y: 256}
+        - {x: -132.125, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_30
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 130.62505, y: -256}
+        - {x: 130.62505, y: 256}
+        - {x: -256, y: 256}
+        - {x: -256, y: -256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_31
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -63.499874, y: 130.62505}
+        - {x: -126.9032, y: 44.328613}
+        - {x: -129.99988, y: -256}
+        - {x: 132.50012, y: -256}
+        - {x: 132.92334, y: -133.54858}
+        - {x: 256, y: -130.12495}
+        - {x: 256, y: 130.62505}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -129.87491, y: 256}
+        - {x: -129.73486, y: 129.49915}
+        - {x: -255.8749, y: 130.62505}
+        - {x: -255.8749, y: -130.12495}
+        - {x: 38.658447, y: -133.22168}
+        - {x: 98.15845, y: -95.125}
+        - {x: 130.875, y: -44.77832}
+        - {x: 130.87509, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_33
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 132.75006, y: -256}
+        - {x: 132.75006, y: 256}
+        - {x: -129.74994, y: 256}
+        - {x: -129.74994, y: -256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_34
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -129.62476, y: 256}
+        - {x: -129.62476, y: -50.828613}
+        - {x: -57.601562, y: -130.125}
+        - {x: 56.81201, y: -130.125}
+        - {x: 132.87524, y: -58.37495}
+        - {x: 132.87524, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -132.125, y: 256}
+        - {x: -132.125, y: -256}
+        - {x: 130.375, y: -256}
+        - {x: 135.20001, y: -130.677}
+        - {x: 256, y: -130.24997}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -130.24997}
+        - {x: -129.63812, y: -131.71582}
+        - {x: -130.24997, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -256}
+        - {x: 130.92651, y: -256}
+        - {x: 132.12244, y: -130.7262}
+        - {x: 256, y: -135.49997}
+        - {x: 256, y: 134.64893}
+        - {x: 127.74609, y: 133.41034}
+        - {x: 135.87505, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -122.86548, y: 256}
+        - {x: -125.11951, y: 135.64862}
+        - {x: -255.99986, y: 135.75002}
+        - {x: -255.99988, y: -121.31732}
+        - {x: -121.91138, y: -126.267334}
+        - {x: -122.41748, y: -255.4585}
+        - {x: 120.94263, y: -255.11798}
+        - {x: 124.30261, y: -125.86047}
+        - {x: 256, y: -127.75958}
+        - {x: 256, y: 126.68213}
+        - {x: 125.81714, y: 132.20215}
+        - {x: 121.81653, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.8749, y: -130.24997}
+        - {x: 256, y: -130.24997}
+        - {x: 256, y: 132.25002}
+        - {x: -255.8749, y: 132.25002}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_40
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -129.49341, y: 256}
+        - {x: -128.52393, y: 135.68652}
+        - {x: -255.74992, y: 137.50002}
+        - {x: -255.74992, y: -130.24997}
+        - {x: -126.72119, y: -124.38428}
+        - {x: -129.74994, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 131.99329}
+        - {x: 124.6582, y: 130.75482}
+        - {x: 124.72217, y: 253.34442}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_41
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 44.64038, y: 129.37653}
+        - {x: -255.62474, y: 132.25002}
+        - {x: -255.62474, y: -256}
+        - {x: 132.87524, y: -256}
+        - {x: 132.87524, y: 55.25002}
+        - {x: 100.74878, y: 95.39166}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -132.125, y: -50.754578}
+        - {x: -45.516754, y: -132.125}
+        - {x: 256, y: -132.125}
+        - {x: 256, y: 126.70386}
+        - {x: 131.63232, y: 128.07892}
+        - {x: 127.70294, y: 256}
+        - {x: -132.125, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_43
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -130.24997, y: 256}
+        - {x: -128.7909, y: 132.62366}
+        - {x: -256, y: 130.375}
+        - {x: -256, y: -132.125}
+        - {x: 256, y: -132.125}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -132.125}
+        - {x: 256, y: -132.125}
+        - {x: 256, y: 130.375}
+        - {x: 128.98413, y: 130.39325}
+        - {x: 130.62505, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_45
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -123.17639, y: 256}
+        - {x: -129.64587, y: 128.05273}
+        - {x: -255.99988, y: 128.93414}
+        - {x: -255.99986, y: -132.125}
+        - {x: 256, y: -132.125}
+        - {x: 256, y: 132.47266}
+        - {x: 131.63672, y: 129.64536}
+        - {x: 131.05933, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_46
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 53.45044, y: 130.375}
+        - {x: -255.8749, y: 130.375}
+        - {x: -255.8749, y: -132.125}
+        - {x: 46.87793, y: -132.125}
+        - {x: 95.44751, y: -96.68521}
+        - {x: 130.87509, y: -48.124996}
+        - {x: 130.875, y: 45.073914}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_47
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -129.74994, y: 256}
+        - {x: -129.75, y: -45.080017}
+        - {x: -47.06958, y: -129.93826}
+        - {x: 256, y: -132.125}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: template7x7_48
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -255.62474, y: 256}
+        - {x: -255.62474, y: -132.125}
+        - {x: 45.82422, y: -132.125}
+        - {x: 135.06201, y: -48.57393}
+        - {x: 132.87524, y: 256}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
