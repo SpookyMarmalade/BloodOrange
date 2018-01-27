@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class PlayerSpawnControl : NetworkManager {
+public class PlayerSpawnControl : NetworkManager{
 
-    public GameObject monsterPrefab;
-
+	public GameObject monsterPrefab;
+	public static PlayerSpawnControl singleton;
 	private bool hasMonster = false;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start() {
+		singleton = this;
 	}
 	
 	public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerIdentity){
@@ -26,5 +26,12 @@ public class PlayerSpawnControl : NetworkManager {
 		}
 
 		NetworkServer.AddPlayerForConnection (conn, player, playerControllerIdentity);
+	}
+		
+	public void InfectPlayer(PlayerActions other){
+		var it = other.connectionToClient;
+		GameObject player = Instantiate<GameObject> (monsterPrefab, other.transform.position, Quaternion.identity); 
+		Destroy (other.gameObject);
+		NetworkServer.ReplacePlayerForConnection (it, player, 0);
 	}
 }
