@@ -748,6 +748,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1035181436224276, guid: a13f78a5abfea2746a443cc66f97946d, type: 2}
+      propertyPath: m_Name
+      value: Network Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 114823332980790858, guid: a13f78a5abfea2746a443cc66f97946d,
+        type: 2}
+      propertyPath: m_PlayerPrefab
+      value: 
+      objectReference: {fileID: 1781910969697054, guid: 959a5aae063b40c4ea02229f62bb1d08,
+        type: 2}
+    - target: {fileID: 114823332980790858, guid: a13f78a5abfea2746a443cc66f97946d,
+        type: 2}
+      propertyPath: m_PlayerSpawnMethod
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a13f78a5abfea2746a443cc66f97946d, type: 2}
   m_IsPrefabParent: 0

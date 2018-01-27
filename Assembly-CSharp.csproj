@@ -213,6 +213,7 @@
      <Compile Include="Assets\Scripts\PlayerSpawnControl.cs" />
      <Compile Include="Assets\Scripts\TileSheet2.cs" />
      <Compile Include="Assets\Scripts\TorchAngler.cs" />
+     <Compile Include="Assets\Scripts\WinChaecker.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
