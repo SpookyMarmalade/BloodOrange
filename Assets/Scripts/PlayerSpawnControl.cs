@@ -27,5 +27,4 @@ public class PlayerSpawnControl : NetworkManager {
 
 		NetworkServer.AddPlayerForConnection (conn, player, playerControllerIdentity);
 	}
-
 }
