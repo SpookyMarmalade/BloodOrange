@@ -24,6 +24,8 @@ public class PlayerSpawnControl : NetworkManager {
 		} else {
 			player = (GameObject)Instantiate<GameObject>(playerPrefab, spawnPoint, Quaternion.identity);
 		}
+
+		NetworkServer.AddPlayerForConnection (conn, player, playerControllerIdentity);
 	}
 
 }

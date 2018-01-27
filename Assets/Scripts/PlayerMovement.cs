@@ -7,7 +7,6 @@ using InControl;
 public class PlayerMovement : NetworkBehaviour {
 
     public float moveSpeed;
-    private const float sqrtHalf = 0.7071067811865476f;
     public Vector2 velocity;
     private Rigidbody2D rb;
 
@@ -17,7 +16,7 @@ public class PlayerMovement : NetworkBehaviour {
 	}
 
     public override void OnStartLocalPlayer(){
-        GetComponent<SpriteRenderer>().material.color = Color.green;
+      
     }
 
 	// Update is called once per frame
@@ -27,7 +26,7 @@ public class PlayerMovement : NetworkBehaviour {
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
-        if (InputManager.Devices.Count > 0) {
+       	if (InputManager.Devices.Count > 0) {
             //override with dpad if being used
             if (Mathf.Abs(InputManager.ActiveDevice.DPad.X) > 0) x = InputManager.ActiveDevice.DPad.X;
             if (Mathf.Abs(InputManager.ActiveDevice.DPad.Y) > 0) y = InputManager.ActiveDevice.DPad.Y;
