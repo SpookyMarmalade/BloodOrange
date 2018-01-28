@@ -51,7 +51,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4468647970736718}
   - component: {fileID: 95097859792453252}
-  - component: {fileID: 70611539563426980}
+  - component: {fileID: 58987771602383850}
   - component: {fileID: 50271751266170088}
   - component: {fileID: 114517861740360524}
   - component: {fileID: 114322507685580080}
@@ -351,7 +351,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4179372965774686}
-  - component: {fileID: 70389740616077574}
+  - component: {fileID: 58446483195728960}
   m_Layer: 14
   m_Name: Trigger
   m_TagString: Untagged
@@ -807,7 +807,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1082169664268386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24314153, y: 0.24338126, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 224766136668697026}
@@ -1102,8 +1102,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &70389740616077574
-CapsuleCollider2D:
+--- !u!58 &58446483195728960
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -1111,14 +1111,14 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3, y: -0.3}
-  m_Size: {x: 1, y: 2.5}
-  m_Direction: 0
---- !u!70 &70611539563426980
-CapsuleCollider2D:
+  m_Offset: {x: 0, y: -0.5}
+  serializedVersion: 2
+  m_Radius: 1
+--- !u!58 &58987771602383850
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -1129,9 +1129,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3, y: -0.5}
-  m_Size: {x: 0.7, y: 2}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.5}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!95 &95097859792453252
 Animator:
   serializedVersion: 3
@@ -1901,6 +1901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextPrompt: {fileID: 114885006244101998}
+  isInteracting: 0
 --- !u!114 &114976830028288010
 MonoBehaviour:
   m_ObjectHideFlags: 1
