@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Networking;
 
 public class DynamicMusic : MonoBehaviour {
     public AudioMixer mixer;
@@ -14,6 +15,9 @@ public class DynamicMusic : MonoBehaviour {
 
     public float rampUpTime;
     public float rampDownTime;
+
+    public float state2MinDistance;
+    public float state3MinDistance;
 
     private List<AudioMixerSnapshot> states = new List<AudioMixerSnapshot>();
 
@@ -45,6 +49,38 @@ public class DynamicMusic : MonoBehaviour {
         {
             inIntro = false;
             PlayMainLoop();
+        } else {
+            Transform localPlayer = ClientScene.localPlayers[0].gameObject.transform;
+            GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+            Transform nearestEnemy = null;
+            float nearestEnemyDistance = Mathf.Infinity;
+            foreach (GameObject player in players) {
+                if (player.GetComponent<MonsterActions>() != null) {
+                    Transform enemy = player.transform;
+                    float distanceFromPlayer = Vector2.Distance(localPlayer.position, enemy.position);
+                    if (distanceFromPlayer < nearestEnemyDistance) {
+                        nearestEnemyDistance = distanceFromPlayer;
+                        nearestEnemy = enemy;
+                    }
+                }
+            }
+            if (nearestEnemy != null) {
+                if (nearestEnemyDistance > state2MinDistance) {
+                    GoToState(0); // Base channel
+                    Debug.Log("Enemy is further than min distance");
+                } else {
+                    if (nearestEnemyDistance < state3MinDistance) {
+                        Debug.Log("Enemy is CLOSE");
+                        GoToState(2); // State 3 channel
+                    } else {
+                        Debug.Log("Enemy is MEDIUM");
+                        GoToState(1); // State 2 channel
+                    }
+                }
+            } else
+            {
+                Debug.Log("No enemies found");
+            }
         }
 	}
 
