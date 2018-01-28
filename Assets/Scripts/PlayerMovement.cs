@@ -6,19 +6,29 @@ using InControl;
 
 public class PlayerMovement : NetworkBehaviour {
 
+	public bool moving;
     public float moveSpeed;
     public Vector2 velocity;
     private AudioSource myFootstepsSound;
     private Rigidbody2D rb;
+	private Animator animator;
+
+	public float sprintVelocityMultiplier;
+	public int maxSprintDuration;
+	public int sprintCooldownDuration;
+	private int sprintDuration = 0;
+	private int cooldownTimer = 0;
+	private bool sprinting = false;
 
     // Use this for initialization
     void Start () {
         rb = transform.GetComponent<Rigidbody2D>();
         myFootstepsSound = Camera.main.GetComponents<AudioSource>()[1];
+		animator = GetComponent<Animator> ();
 	}
 
     public override void OnStartLocalPlayer(){
-      
+		
     }
 
 	// Update is called once per frame
@@ -45,12 +55,40 @@ public class PlayerMovement : NetworkBehaviour {
 
         //normalised to get around diagonal being faster
         velocity = new Vector2(x, y).normalized * moveSpeed;
-        rb.velocity = velocity;
 
-        bool moving = (x != 0 || y != 0);
+		//moving?
+		moving = (x != 0 || y != 0);
+
+		//sprinting
+		if (moving && Input.GetKey (KeyCode.LeftShift) && cooldownTimer <= 0) {
+			sprinting = true;
+			velocity *= sprintVelocityMultiplier;
+			sprintDuration++;
+			if (sprintDuration >= maxSprintDuration) {
+				cooldownTimer = sprintCooldownDuration;
+				sprinting = false;
+				sprintDuration = 0;
+			}
+		} else if (cooldownTimer > 0){
+			cooldownTimer--;
+		} if (sprinting && Input.GetKeyUp (KeyCode.LeftShift)) {
+			cooldownTimer = sprintCooldownDuration;
+			sprinting = false;
+			sprintDuration = 0;
+		}
+
+        rb.velocity = velocity;
+		      	
         myFootstepsSound.loop = moving;
         if (moving && !myFootstepsSound.isPlaying) {
             myFootstepsSound.Play();
         }
+		if (sprinting && animator.GetInteger ("state") != 2) {
+			animator.SetInteger ("state", 2);
+		} else if (!sprinting && moving && animator.GetInteger ("state") != 1) {
+			animator.SetInteger ("state", 1);
+		} else if (!moving && animator.GetInteger ("state") != 0) {
+			animator.SetInteger ("state", 0);
+		}
 	} 
 }
