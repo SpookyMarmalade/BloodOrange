@@ -66,11 +66,15 @@ public class PlayerMovement : NetworkBehaviour {
 			sprintDuration++;
 			if (sprintDuration >= maxSprintDuration) {
 				cooldownTimer = sprintCooldownDuration;
+				sprinting = false;
+				sprintDuration = 0;
 			}
 		} else if (cooldownTimer > 0){
 			cooldownTimer--;
-		} if (Input.GetKeyUp (KeyCode.LeftShift)) {
+		} if (sprinting && Input.GetKeyUp (KeyCode.LeftShift)) {
 			cooldownTimer = sprintCooldownDuration;
+			sprinting = false;
+			sprintDuration = 0;
 		}
 
         rb.velocity = velocity;

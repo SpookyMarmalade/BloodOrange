@@ -1447,8 +1447,11 @@ MonoBehaviour:
   moveSpeed: 3
   velocity: {x: 0, y: 0}
   sprintVelocityMultiplier: 1.5
-  maxSprintDuration: 10
-  sprintCooldownDuration: 30
+  maxSprintDuration: 100
+  sprintCooldownDuration: 300
+  sprintDuration: 0
+  cooldownTimer: 0
+  sprinting: 0
 --- !u!114 &114363379559024842
 MonoBehaviour:
   m_ObjectHideFlags: 1
