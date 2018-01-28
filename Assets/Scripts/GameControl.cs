@@ -7,12 +7,15 @@ using UnityEngine.UI;
 public class GameControl : NetworkBehaviour {
 
 	public GameObject monsterPrefab;
+	public GameObject luckyPrefab;
+	public GameObject paigePrefab;
+	public GameObject teddyPrefab;
+	public GameObject pennyPrefab;
 
 	public static GameControl singleton;
 
 	int playerCount = 0;
 	bool started = false;
-	private GameObject monsterCandidate;
 
 	// Use this for initialization
 	void Start() {
@@ -25,13 +28,9 @@ public class GameControl : NetworkBehaviour {
 		if (!isServer) return;
 		if (!started && playerCount >= 2) {			
 			started = true;
-			Debug.Log (playerCount);
-			PlayerActions mons = monsterCandidate.GetComponent<PlayerActions>();
-			Debug.Log (mons);
-			InfectPlayer(mons);
 		}
 
-		if (started && playerCount <= 0)
+		if (started && playerCount <= 1)
 		{
 			Debug.Log("Game Over!");
 		}
@@ -51,12 +50,33 @@ public class GameControl : NetworkBehaviour {
 		bool rep = NetworkServer.ReplacePlayerForConnection (conn, player, 0);
 
 		Debug.Log (rep);
+	}
 
-		playerCount--;
+	public void ReplacePlayer(PlayerActions other, int pid){
+		Debug.Log ("Reforming player");
+
+		GameObject prefab = (pid == 1 ? luckyPrefab : (pid == 3 ? paigePrefab : (pid == 4 ? teddyPrefab : pennyPrefab)));
+
+		GameObject player = Instantiate<GameObject> (prefab, other.transform.position, Quaternion.identity);
+
+		var conn = other.connectionToClient;
+
+		player.GetComponent<PlayerActions> ().contextPrompt = other.contextPrompt;
+
+		Destroy (other.gameObject);
+
+		bool rep = NetworkServer.ReplacePlayerForConnection (conn, player, 0);
+
+		Debug.Log (rep);
 	}
 
 	public void RegisterPlayer(GameObject player){		
 		playerCount++;
-		monsterCandidate = player;
+		if (playerCount == 2) {
+			InfectPlayer (player.GetComponent<PlayerActions> ());
+		} else {
+			ReplacePlayer (player.GetComponent<PlayerActions> (), playerCount);
+		}
+
 	}
 }
