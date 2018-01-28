@@ -718,7 +718,7 @@ MonoBehaviour:
   viewRadius: 1
   viewAngle: 361
   meshResolution: 1
-  obstaclePenetration: 0.1
+  obstaclePenetration: 0.5
   obstacleMask:
     serializedVersion: 2
     m_Bits: 1
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   viewRadius: 5
   viewAngle: 60
   meshResolution: 1
-  obstaclePenetration: 0.1
+  obstaclePenetration: 0.5
   obstacleMask:
     serializedVersion: 2
     m_Bits: 1
