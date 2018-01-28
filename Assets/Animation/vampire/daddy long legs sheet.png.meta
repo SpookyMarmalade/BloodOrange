@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: f8838a2c8d8c8f64d80a7c8f5b35a8b8
+timeCreated: 1517146985
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: daddy long legs sheet_0
+    21300002: daddy long legs sheet_1
+    21300004: daddy long legs sheet_2
+    21300006: daddy long legs sheet_3
+    21300008: daddy long legs sheet_4
+    21300010: daddy long legs sheet_5
+    21300012: daddy long legs sheet_6
+    21300014: daddy long legs sheet_7
+    21300016: daddy long legs sheet_8
+    21300018: daddy long legs sheet_9
+    21300020: daddy long legs sheet_10
+    21300022: daddy long legs sheet_11
+    21300024: daddy long legs sheet_12
+    21300026: daddy long legs sheet_13
+    21300028: daddy long legs sheet_14
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 512
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daddy long legs sheet_0
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 981
+        width: 252
+        height: 246.13428
+      alignment: 9
+      pivot: {x: 0.4751207, y: -0.16199367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 115.5}
+        - {x: -121, y: -23.5}
+        - {x: -121, y: -88.5}
+        - {x: -94, y: -115.5}
+        - {x: -28, y: -115.5}
+        - {x: 121, y: 90.5}
+        - {x: 121, y: 114.5}
+        - {x: 113, y: 115.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1199
+        width: 297
+        height: 438
+      alignment: 9
+      pivot: {x: 0.8859869, y: 1.012047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 214}
+        - {x: 45.5, y: 203}
+        - {x: -143.5, y: -174}
+        - {x: -143.5, y: -214}
+        - {x: -49.93103, y: -190.56897}
+        - {x: 143.5, y: 81}
+        - {x: 143.5, y: 214}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_2
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1195
+        width: 296
+        height: 437
+      alignment: 9
+      pivot: {x: 0.23034504, y: 0.80098766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -143, y: 213.5}
+        - {x: -143, y: 141.5}
+        - {x: 20, y: -140.5}
+        - {x: 56, y: -199.5}
+        - {x: 105, y: -213.5}
+        - {x: 143, y: -213.5}
+        - {x: 143, y: -186.5}
+        - {x: -55, y: 213.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 977
+        width: 251
+        height: 240
+      alignment: 9
+      pivot: {x: 0.002064496, y: 0.53170884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 115}
+        - {x: -118.5, y: 115}
+        - {x: -120.5, y: 111}
+        - {x: -120.5, y: 83}
+        - {x: 43.5, y: -115}
+        - {x: 62.5, y: -115}
+        - {x: 98.5, y: -111}
+        - {x: 120.5, y: -84}
+        - {x: 120.5, y: -30}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1118
+        width: 525
+        height: 535
+      alignment: 9
+      pivot: {x: 0.49974352, y: 0.03459587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.5, y: 266.5}
+        - {x: -257.5, y: 216.5}
+        - {x: -257.5, y: -17.5}
+        - {x: -65.5, y: -258.5}
+        - {x: 98.5, y: -258.5}
+        - {x: 257.5, y: 16.5}
+        - {x: 257.5, y: 138.5}
+        - {x: 156.5, y: 266.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1140
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 7.5}
+        - {x: -6.5, y: 0.5}
+        - {x: -6.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 6.5, y: -3.5}
+        - {x: 6.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 677
+        width: 332
+        height: 324.99994
+      alignment: 9
+      pivot: {x: 0.9436107, y: 1.4384389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121, y: 157.5}
+        - {x: 30, y: 157.5}
+        - {x: -161, y: 69.5}
+        - {x: -161, y: -157.5}
+        - {x: -71, y: -157.5}
+        - {x: -37, y: -151.5}
+        - {x: -28, y: -141.5}
+        - {x: -24, y: -135.5}
+        - {x: 32, y: -157.5}
+        - {x: 66, y: -157.5}
+        - {x: 132, y: -141.5}
+        - {x: 161, y: -41.5}
+        - {x: 161, y: 146.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 296
+        width: 515
+        height: 797
+      alignment: 9
+      pivot: {x: 0.50996923, y: 0.13051143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -224.5, y: 393.5}
+        - {x: -252.5, y: 389.5}
+        - {x: -252.5, y: 127.98657}
+        - {x: -205.03888, y: -71.11926}
+        - {x: -193.5, y: -374.5}
+        - {x: -151.5, y: -393.5}
+        - {x: 140.445, y: -392.91992}
+        - {x: 161.52832, y: -135.01416}
+        - {x: 182.29822, y: 46.16455}
+        - {x: 248.6217, y: 154.67096}
+        - {x: 252.5, y: 393.5}
+      - - {x: -91.5, y: -314.5}
+        - {x: -90.5, y: -314.5}
+        - {x: -92.5, y: -314.5}
+        - {x: -93.5, y: -313.5}
+      - - {x: 74.5, y: -311.5}
+        - {x: 63.5, y: -303.5}
+        - {x: 71.5, y: -304.5}
+        - {x: 100.5, y: -314.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 212
+        width: 94
+        height: 490
+      alignment: 9
+      pivot: {x: 0.62813485, y: 0.9130823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 240}
+        - {x: -42, y: -240}
+        - {x: 42, y: -240}
+        - {x: 42, y: 240}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1192.0302
+        y: 672
+        width: 348.96985
+        height: 325
+      alignment: 9
+      pivot: {x: -0.96804214, y: 0.19832145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134.5, y: 157.5}
+        - {x: -160.5, y: 129.5}
+        - {x: -160.5, y: -0.5}
+        - {x: -104.5, y: -107.5}
+        - {x: -85.5, y: -157.5}
+        - {x: 117.5, y: -157.5}
+        - {x: 160.5, y: -117.5}
+        - {x: 160.5, y: 26.5}
+        - {x: -49.5, y: 157.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 331
+        width: 79
+        height: 296
+      alignment: 9
+      pivot: {x: -2.71287, y: 0.62241924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -132}
+        - {x: -22.5, y: -143}
+        - {x: 34.5, y: -143}
+        - {x: 34.5, y: 143}
+        - {x: -28.5, y: 143}
+        - {x: -30.5, y: 140}
+        - {x: -34.5, y: 126}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_11
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 167
+        width: 95
+        height: 490
+      alignment: 9
+      pivot: {x: 0.43904388, y: 0.9372674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 240}
+        - {x: -42.5, y: -158}
+        - {x: -29.5, y: -240}
+        - {x: 42.5, y: -240}
+        - {x: 42.5, y: 234}
+        - {x: 21.5, y: 240}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 376
+        width: 79
+        height: 296
+      alignment: 9
+      pivot: {x: -0.4365049, y: 0.31574744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 143}
+        - {x: -34.5, y: 89}
+        - {x: -31.5, y: 31}
+        - {x: -34.5, y: -20}
+        - {x: -34.5, y: -143}
+        - {x: 6.5, y: -143}
+        - {x: 34.5, y: -126}
+        - {x: 34.5, y: 143}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 36
+        width: 395.99997
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5414518, y: -1.9161949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -193, y: -110.5}
+        - {x: -84, y: -110.5}
+        - {x: -8, y: -85.5}
+        - {x: 193, y: 22.5}
+        - {x: 193, y: 110.5}
+        - {x: 92, y: 110.5}
+        - {x: -193, y: 23.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: daddy long legs sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 81
+        width: 396
+        height: 231
+      alignment: 9
+      pivot: {x: 0.20289874, y: -1.7939517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 110.5}
+        - {x: -193, y: 110.5}
+        - {x: -193, y: -23.5}
+        - {x: 55, y: -110.5}
+        - {x: 193, y: -110.5}
+        - {x: 193, y: -11.5}
+        - {x: 155, y: 73.5}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 99427742129485
+  assetBundleName: 
+  assetBundleVariant: 

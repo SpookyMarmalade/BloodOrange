@@ -34,7 +34,6 @@ public class MonsterActions :NetworkBehaviour {
 
 	void UpdateContextUI(){
 		contextPrompt.text = "[Space]";
-		contextPrompt.gameObject.GetComponentInChildren<ParticleSystem> ().Emit (10);
 	}
 		
 	void ContextInteraction(){
