@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 4246747394905920}
   - component: {fileID: 95367394321332986}
   - component: {fileID: 61088197306446960}
+  - component: {fileID: 82464751771518966}
   m_Layer: 15
   m_Name: Fireplace
   m_TagString: Untagged
@@ -99,7 +100,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1212101410645348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.16, y: 4.87, z: 0}
+  m_LocalPosition: {x: -9.16, y: 4.87, z: -1}
   m_LocalScale: {x: 0.110574186, y: 0.110574186, z: 0.110574186}
   m_Children:
   - {fileID: 4731616215488998}
@@ -186,6 +187,93 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13.23, y: 14.24}
   m_EdgeRadius: 0
+--- !u!82 &82464751771518966
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212101410645348}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243091678792801326, guid: 4884b8b6c74e2c34e85f80fd424108f9,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6a0d1e1cdec659e4c96ee4ad6d26d06f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1.1327219
+  MaxDistance: 2.5574288
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.44291434
+      value: 1
+      inSlope: -2.2586758
+      outSlope: -2.2586758
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.71267194
+      value: 0.21305847
+      inSlope: -1.2736095
+      outSlope: -1.2736095
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.98916626
+      value: 0
+      inSlope: -0.44309124
+      outSlope: -0.44309124
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95367394321332986
 Animator:
   serializedVersion: 3
