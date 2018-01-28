@@ -10,6 +10,7 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
+  - {fileID: 245746211467803788}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
@@ -20,6 +21,7 @@ AudioMixerController:
     - 5ec83365bba192249a700c59fce516f7
     - 616db9373061b6643883f8e3c3d7dd41
     - 7aab896e45baec748b391df19d844103
+    - 7fb5f5c15c60cba4a92e338114b8f908
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -34,6 +36,7 @@ AudioMixerGroupController:
   m_Children:
   - {fileID: 243615582779228276}
   - {fileID: 243691006393421628}
+  - {fileID: 243939337386344376}
   m_Volume: d8eda7f17929f884e9d2fbb58d41721c
   m_Pitch: 69572b2353fb9b14781cb1a08c18e5bd
   m_Effects:
@@ -101,6 +104,23 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!243 &243939337386344376
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Infection
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 7fb5f5c15c60cba4a92e338114b8f908
+  m_Children: []
+  m_Volume: 2b0a35cd0cb11e54a872bff9de04a54e
+  m_Pitch: dc0bfe36142269f438f224681f24fff8
+  m_Effects:
+  - {fileID: 244205350254076782}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &244122142190882788
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -110,6 +130,19 @@ AudioMixerEffectController:
   m_EffectID: 811bf78f1412e114eb00e8d9314210ab
   m_EffectName: Attenuation
   m_MixLevel: 26494c4060f4e1f4e94c441bb041540f
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244205350254076782
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 80a35a2351cc3b647b502a79063ca637
+  m_EffectName: Attenuation
+  m_MixLevel: c6e478edbd2087947b8cec4fefb3207d
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
@@ -127,3 +160,17 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!245 &245746211467803788
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: InfectionSnapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: b57505abe7a2e5644817a96efecbd512
+  m_FloatValues:
+    d8eda7f17929f884e9d2fbb58d41721c: 0.23288241
+    f335878409140874dbd51b807f825954: -15.421314
+    b5ab22b584edf1942a250a6551949777: -80
+    d0f9204846834cf4e847aca1b2ecfe6c: -14.816608
+  m_TransitionOverrides: {}
