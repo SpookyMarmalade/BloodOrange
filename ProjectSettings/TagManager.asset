@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Spotlight
+  - Monster
   layers:
   - Default
   - TransparentFX

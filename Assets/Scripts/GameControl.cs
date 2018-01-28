@@ -27,7 +27,7 @@ public class GameControl : NetworkBehaviour {
 			started = true;
 			Debug.Log (playerCount);
 			PlayerActions mons = monsterCandidate.GetComponent<PlayerActions>();
-			Debug.Log (mons.playernumber);
+			Debug.Log (mons);
 			InfectPlayer(mons);
 		}
 
@@ -44,6 +44,8 @@ public class GameControl : NetworkBehaviour {
 
 		var conn = other.connectionToClient;
 
+		player.GetComponent<MonsterActions> ().contextPrompt = other.contextPrompt;
+
 		Destroy (other.gameObject);
 
 		bool rep = NetworkServer.ReplacePlayerForConnection (conn, player, 0);
@@ -54,7 +56,6 @@ public class GameControl : NetworkBehaviour {
 	}
 
 	public void RegisterPlayer(GameObject player){		
-		player.GetComponent<PlayerActions> ().playernumber = playerCount;
 		playerCount++;
 		monsterCandidate = player;
 	}
