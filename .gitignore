@@ -3,3 +3,4 @@
 /Builds/
 /.vs/BloodOrange/v15/Server/
 /obj/
+*/*.csproj
