@@ -1446,12 +1446,9 @@ MonoBehaviour:
   moving: 0
   moveSpeed: 3
   velocity: {x: 0, y: 0}
-  sprintVelocityMultiplier: 1.5
-  maxSprintDuration: 100
-  sprintCooldownDuration: 300
-  sprintDuration: 0
-  cooldownTimer: 0
-  sprinting: 0
+  sprintVelocityMultiplier: 0
+  maxSprintDuration: 0
+  sprintCooldownDuration: 0
 --- !u!114 &114363379559024842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1903,7 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f970ec2a28f5f04ebb8ca12ca65e24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contextPrompt: {fileID: 114885006244101998}
+  contextPrompt: {fileID: 0}
   isInteracting: 0
 --- !u!114 &114976830028288010
 MonoBehaviour:
