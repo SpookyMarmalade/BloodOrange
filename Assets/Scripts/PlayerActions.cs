@@ -24,4 +24,17 @@ public class PlayerActions : NetworkBehaviour {
 			Debug.Log ("Updated Sprite for " + playernumber);
 		}
 	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		Debug.Log ("Ouch!");
+		if (null != other.GetComponentInParent<DoorBehaviour>()) {
+			Debug.Log ("It's a door!");
+			DoorBehaviour door = other.GetComponentInParent<DoorBehaviour> ();
+			door.ToggleDirection ();
+		} else if (null != other.GetComponentInParent<MonsterActions> ()) {
+			if (!isServer)
+				return;
+			Debug.Log ("AAAAAAAAAAAGGHHHH!");
+		}
+	}
 }
