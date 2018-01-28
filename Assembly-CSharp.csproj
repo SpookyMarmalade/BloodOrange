@@ -207,13 +207,13 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\GameControl.cs" />
      <Compile Include="Assets\Scripts\MonsterActions.cs" />
+     <Compile Include="Assets\Scripts\NetworkControl.cs" />
      <Compile Include="Assets\Scripts\PlayerActions.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerSpawnControl.cs" />
      <Compile Include="Assets\Scripts\TileSheet2.cs" />
      <Compile Include="Assets\Scripts\TorchAngler.cs" />
-     <Compile Include="Assets\Scripts\WinChaecker.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
