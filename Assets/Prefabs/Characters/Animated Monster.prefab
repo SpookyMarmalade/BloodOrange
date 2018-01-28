@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 114702081930665970}
   m_Layer: 13
   m_Name: Animated Monster
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

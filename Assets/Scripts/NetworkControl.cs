@@ -11,9 +11,9 @@ public class NetworkControl : NetworkManager{
 
 		player = (GameObject)Instantiate<GameObject> (playerPrefab, spawnPoint, Quaternion.identity);
 
-		GameControl.singleton.RegisterPlayer (player);
-
 		NetworkServer.AddPlayerForConnection (conn, player, playerControllerIdentity);
+
+		GameControl.singleton.RegisterPlayer (player);
 	}
 
 }
