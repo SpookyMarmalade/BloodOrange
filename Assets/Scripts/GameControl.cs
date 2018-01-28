@@ -75,7 +75,7 @@ public class GameControl : NetworkBehaviour {
 		if (playerCount == 2) {
 			InfectPlayer (player.GetComponent<PlayerActions> ());
 		} else {
-			ReplacePlayer (player.GetComponent<PlayerActions> (), playerCount);
+			//ReplacePlayer (player.GetComponent<PlayerActions> (), playerCount);
 		}
 
 	}
