@@ -24,7 +24,7 @@ public class MonsterActions :NetworkBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (inContext && isLocalPlayer) {
+		if (inContext) {
 			UpdateContextUI ();
 			ContextInteraction ();
 			Animate ();
@@ -38,8 +38,8 @@ public class MonsterActions :NetworkBehaviour {
 		
 	void ContextInteraction(){
 		Debug.Log ("Grrrr...");
-		if (moving.moving || !Interacting ())
-			return;
+		//if (!Interacting ())
+		//	return;
 
 		isUsing = true;
 		if (null != contextObject.GetComponentInParent<DoorBehaviour> ()) {
